@@ -15,7 +15,8 @@ SECRET_KEY = 'django-insecure-rxw=pc3bhuqz+uik8+hklofnq1myirr6qka$w^%gq^!k1du4!)
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# Permitir el dominio de Render y conexiones locales
+ALLOWED_HOSTS = ['movie-matcher-backend-8hk3.onrender.com', 'localhost', '127.0.0.1', '*']
 
 
 # Application definition
